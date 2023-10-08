@@ -1,0 +1,10 @@
+.mid-content {
+  background-color: cadetblue;
+}
+.mid-content .banner {
+  height: 147px;
+  width: 1300px;
+  background-color: blueviolet;
+  margin: 0 auto;
+  margin-top: 74px;
+}

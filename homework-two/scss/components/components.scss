@@ -1,0 +1,66 @@
+.dispatch-header {
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 25px;
+
+}
+
+
+.dispatch-event {
+    width: 196px;
+
+    .date-time {
+        text-transform: uppercase;
+        color: darkgray;
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
+
+    .dispatch-image {
+        img {
+            width: 100%;
+        }
+    }
+
+    .title-bubble {
+        margin-top: 3px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .title{
+            // margin-right: 2px;
+            h5{
+                font-size: 11px;
+                margin-bottom: 0px;
+                color: #57392e;
+            }
+        }
+
+        .bubble {
+            width: 23px;
+            height: 16px;
+            background-color: darkgray;
+            position: relative;
+            color: white;
+            font-size: 8px;
+            text-align: center;
+            padding-top: 4px;
+
+
+
+            .triangle {
+                height: 0px;
+                width: 0px;
+                border-style: solid;
+                border-width: 7px 7px 0 0;
+                border-color: darkgray transparent transparent transparent;
+                position: absolute;
+                bottom: -7px;
+                left: 6px;
+            }
+        }
+
+       
+    }
+}

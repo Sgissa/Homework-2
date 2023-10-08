@@ -1,0 +1,109 @@
+.mid-content {
+    min-height: 500px;
+    background-color: #f2f1ee;
+    padding-top: 75px;
+
+
+    .banner {
+        height: 147px;
+        width: 1300px;
+        // background-color: blueviolet;
+        margin: 0 auto;
+    
+        img{
+            width: 100%;
+        }
+        margin-bottom: 75px;
+       
+    }
+
+    .midtext {
+        // background-color: aqua  ;
+        height: 100px;
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+
+        .row1{
+            padding-left: 30px;
+        }
+
+        .row2{
+            padding-left: 300px;
+        }
+    }
+
+    .handbook{
+        width: 1000px;
+        min-height: 500px;
+        // background-color: aquamarine;
+        margin: 0 auto;
+        margin-top: 75px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .explorebox {
+        // background-color: aquamarine;
+        height: 408px;
+        width: 1360px;
+        margin: 0 auto;
+        margin-top: 75px;
+        display: flex;
+        position: relative;
+
+        .extitle {
+            width: 127px;
+            height: 38px;
+            background-color: #1a1c18;
+            position: absolute;
+            margin-left: 620px;
+            margin-top: -16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+
+            .title-words{
+                color: white;
+            }
+        }
+
+
+        .expic {
+            width: 340px;
+            height: 340px;
+            // background-color: blue;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+
+    .sponcers {
+        width: 1200px;
+        min-height: 300px;
+        margin: 0 auto;
+        // background-color: blueviolet;
+        display: flex;
+        flex-wrap: wrap;
+
+        .sbox{ 
+            width: 240px;
+            min-height: 150px;
+            // background-color: aqua;
+
+            img{
+                width: 100%;
+            }
+        }
+
+
+    }
+}
